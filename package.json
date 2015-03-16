@@ -1,0 +1,11 @@
+{
+  "name": "electolibjs",
+  "version": "1.0.0",
+  "description": "Node.js module for electronic prototyping",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Drasko DRASKOVIC <drasko.draskovic@gmail.com>",
+  "license": "GPLv3"
+}
