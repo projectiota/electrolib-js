@@ -3,7 +3,7 @@
  * Board Class
  */
 function Board() {
-    this.name = "Dummy";
+    this.name = "dummy";
 };
 
 
