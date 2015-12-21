@@ -1,11 +1,11 @@
 {
-  "name": "electra",
-  "version": "1.0.0",
+  "name": "electrolib",
+  "version": "0.1.0",
   "description": "Node.js module for electronic prototyping",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Drasko DRASKOVIC <drasko.draskovic@gmail.com>",
-  "license": "GPLv3"
+  "license": "APACHE-2.0"
 }

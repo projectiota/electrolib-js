@@ -2,9 +2,9 @@
 var boards = ["dummy", "weio"];
 
 /**
- * Electra class
+ * Electrolib class
  */
-function Electra(board) {
+function Electrolib(board) {
     if (boards.indexOf(board) == -1) {
         console.log("Board `" + board + "` is not supported.");
         process.exit(1);
@@ -17,23 +17,23 @@ function Electra(board) {
     console.log("\n***\nBOARD: " + this.board.getName() + "\n***");
 };
 
-Electra.prototype.hello = function() {
+Electrolib.prototype.hello = function() {
     console.log("Hello World!");
 };
 
 /*
  * Board Methods
  */
-Electra.prototype.digitalWrite = function(pin, val) {
+Electrolib.prototype.digitalWrite = function(pin, val) {
     return this.board.digitalWrite(pin, val);
 };
 
-Electra.prototype.digitalRead = function(pin) {
+Electrolib.prototype.digitalRead = function(pin) {
     return this.board.digitalRead(pin);
 };
 
-Electra.prototype.analogRead = function(pin) {
+Electrolib.prototype.analogRead = function(pin) {
     return this.board.analogRead(pin);
 };
 
-module.exports = Electra;
+module.exports = Electrolib;

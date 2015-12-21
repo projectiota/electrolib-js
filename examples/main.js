@@ -1,8 +1,8 @@
 /*
  * Import create Electra class and create instance
  */
-var Electra = require("./electra.js");
-var ect = new Electra("dummy");
+var Electrolib = require("./electrolib.js");
+var ect = new Electrolib("dummy");
 
 ect.hello();
 
