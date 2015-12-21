@@ -6,9 +6,6 @@
  * See the included LICENSE file for more details.
  */
 
-var e = require('../').Electrolib();
+var electrolib = require('./lib/electrolib');
 
-e.setBoard("dummy");
-
-e.digitalWrite(21, 1);
-e.analogRead(32);
+module.exports.Electrolib = electrolib;
